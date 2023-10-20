@@ -10,7 +10,7 @@ classDiagram
     -account: Account
     -features: Feature[]
     -card: Card
-    -news: News
+    -news: News[]
   }
   class Account {
     -accountNumber: string
@@ -35,4 +35,5 @@ classDiagram
   User --> Feature
   User --> Card
   User --> News
+
 ```
